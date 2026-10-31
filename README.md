@@ -1,5 +1,10 @@
 # Route A Research
 
+Name: Krrish Chhabra
+Section: D
+Subject: Deep Learning
+Registration Number: 2430010396
+
 ## Title
 Finding Donors for CharityML Using Supervised Learning:
 A Tabular Self-Attention Residual Network (Tab-ResNet-Attn) Approach
