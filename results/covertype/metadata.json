@@ -1,0 +1,30 @@
+{
+    "dataset": "UCI Covertype",
+    "rows": 581012,
+    "features": 54,
+    "classes": 7,
+    "seeds": [
+        42,
+        52,
+        62
+    ],
+    "train_rows_per_seed": 20000,
+    "test_rows_per_seed": 30000,
+    "neural_epochs": 5,
+    "batch_size": 512,
+    "python": "3.14.8",
+    "torch": "2.15.0+cpu",
+    "device": "cpu",
+    "protocol": "Stratified shared training/test subsets; same data per model for each seed",
+    "models": [
+        "LogisticRegression",
+        "RandomForest",
+        "ExtraTrees",
+        "HistGradientBoosting",
+        "XGBoost",
+        "LightGBM",
+        "CatBoost",
+        "MLP",
+        "Tab-ResNet-Attn"
+    ]
+}

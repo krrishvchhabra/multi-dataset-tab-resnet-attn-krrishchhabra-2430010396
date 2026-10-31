@@ -1,0 +1,58 @@
+{
+    "dataset": "UCI Bank Marketing",
+    "data_file": "bank-additional-full.csv",
+    "target_column": "y",
+    "excluded_column": "duration",
+    "rows": 41188,
+    "features": 19,
+    "categorical_features": [
+        "job",
+        "marital",
+        "education",
+        "default",
+        "housing",
+        "loan",
+        "contact",
+        "month",
+        "day_of_week",
+        "poutcome"
+    ],
+    "numerical_features": [
+        "age",
+        "campaign",
+        "pdays",
+        "previous",
+        "emp.var.rate",
+        "cons.price.idx",
+        "cons.conf.idx",
+        "euribor3m",
+        "nr.employed"
+    ],
+    "seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+    ],
+    "train_fraction": 0.7,
+    "validation_fraction": 0.1,
+    "test_fraction": 0.2,
+    "threshold": 0.5,
+    "threshold_tuning": false,
+    "neural_epochs": 15,
+    "batch_size": 512,
+    "device": "cpu",
+    "models": [
+        "LogisticRegression",
+        "RandomForest",
+        "ExtraTrees",
+        "HistGradientBoosting",
+        "XGBoost",
+        "LightGBM",
+        "CatBoost",
+        "MLP",
+        "Tab-ResNet-Attn"
+    ],
+    "total_runs": 45
+}

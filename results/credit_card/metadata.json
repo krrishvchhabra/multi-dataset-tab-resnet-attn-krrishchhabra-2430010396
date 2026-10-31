@@ -1,0 +1,61 @@
+{
+    "dataset": "UCI Credit Card Default",
+    "data_file": "default of credit card clients.xls",
+    "target_column": "Y",
+    "id_column_removed": "X1",
+    "rows": 30000,
+    "features": 22,
+    "categorical_features": [
+        "X2",
+        "X3",
+        "X4"
+    ],
+    "numerical_features": [
+        "X5",
+        "X6",
+        "X7",
+        "X8",
+        "X9",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17",
+        "X18",
+        "X19",
+        "X20",
+        "X21",
+        "X22",
+        "X23"
+    ],
+    "seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+    ],
+    "train_fraction": 0.7,
+    "validation_fraction": 0.1,
+    "test_fraction": 0.2,
+    "threshold": 0.5,
+    "threshold_tuning": false,
+    "neural_epochs": 15,
+    "batch_size": 512,
+    "device": "cpu",
+    "models": [
+        "LogisticRegression",
+        "RandomForest",
+        "ExtraTrees",
+        "HistGradientBoosting",
+        "XGBoost",
+        "LightGBM",
+        "CatBoost",
+        "MLP",
+        "Tab-ResNet-Attn"
+    ],
+    "total_runs": 45
+}
