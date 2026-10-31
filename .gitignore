@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# Dataset files
+data/*.csv
+data/*.data
+data/*.gz
+data/*.zip
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
