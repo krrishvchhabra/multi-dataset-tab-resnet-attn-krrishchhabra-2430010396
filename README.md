@@ -1,4 +1,4 @@
-# Route A Research
+# A Multi-Dataset Benchmark of Tabular Self-Attention Residual Networks and Strong Baseline
 
 Name: Krrish Chhabra
 Section: D
@@ -6,8 +6,7 @@ Subject: Deep Learning
 Registration Number: 2430010396
 
 ## Title
-Finding Donors for CharityML Using Supervised Learning:
-A Tabular Self-Attention Residual Network (Tab-ResNet-Attn) Approach
+A Multi-Dataset Benchmark of Tabular Self-Attention Residual Networks and Strong Baseline
 
 ## Research Objective
 This project evaluates whether a tabular self-attention residual neural
